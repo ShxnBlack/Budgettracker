@@ -1,0 +1,61 @@
+{
+  "name": "PocketBudget",
+  "short_name": "PocketBudget",
+  "description": "Smart personal budgeting — track income, spending, savings and bills.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone"],
+  "orientation": "portrait-primary",
+  "background_color": "#0e0e16",
+  "theme_color": "#0e0e16",
+  "categories": ["finance", "productivity"],
+  "icons": [
+    {
+      "src": "/icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Dashboard",
+      "short_name": "Dashboard",
+      "description": "Open your budget dashboard",
+      "url": "/?tab=dashboard",
+      "icons": [{ "src": "/icons/icon.svg", "sizes": "any", "type": "image/svg+xml" }]
+    },
+    {
+      "name": "Add Transaction",
+      "short_name": "Add",
+      "description": "Log a new transaction",
+      "url": "/?tab=transactions",
+      "icons": [{ "src": "/icons/icon.svg", "sizes": "any", "type": "image/svg+xml" }]
+    },
+    {
+      "name": "Savings",
+      "short_name": "Savings",
+      "description": "View your savings vaults",
+      "url": "/?tab=savings",
+      "icons": [{ "src": "/icons/icon.svg", "sizes": "any", "type": "image/svg+xml" }]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/icons/icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "form_factor": "narrow",
+      "label": "PocketBudget — Smart budgeting"
+    }
+  ],
+  "prefer_related_applications": false,
+  "lang": "en-GB"
+}

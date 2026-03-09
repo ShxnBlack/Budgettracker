@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#4338ca"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.18)"/>
+      <stop offset="100%" stop-color="rgba(255,255,255,0)"/>
+    </linearGradient>
+  </defs>
+  <!-- Background rounded rect -->
+  <rect width="512" height="512" rx="112" ry="112" fill="url(#bg)"/>
+  <!-- Shine overlay -->
+  <rect width="512" height="256" rx="112" ry="112" fill="url(#shine)"/>
+  <!-- Wallet icon (lucide-style) -->
+  <!-- Wallet body -->
+  <rect x="112" y="160" width="288" height="200" rx="24" ry="24" fill="none" stroke="white" stroke-width="28" stroke-linejoin="round"/>
+  <!-- Wallet flap top -->
+  <path d="M112 210 L400 210" stroke="white" stroke-width="26" stroke-linecap="round"/>
+  <!-- Coin slot -->
+  <rect x="310" y="230" width="90" height="56" rx="28" ry="28" fill="white" opacity="0.9"/>
+  <!-- Coin dot -->
+  <circle cx="355" cy="258" r="14" fill="#4338ca"/>
+</svg>
